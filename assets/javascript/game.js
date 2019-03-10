@@ -2,44 +2,89 @@ $(document).ready(function () {
 
     var potentialWords = [{
         name: "indiana jones",
-        image: "./assets/images/movie/Indiana-Jones.jpg"
+        image: "./assets/images/Indiana-Jones.jpg"
     },
     {
         name: "star wars",
-        image: "./assets/images/movie/Star-Wars.jpg"
+        image: "./assets/images/Star-Wars.jpg"
     },
     {
         name: "harry potter",
-        image: "./assets/images/movie/Harry Potter.jpg"
+        image: "./assets/images/Harry Potter.jpg"
     },
     {
         name: "the lord of the rings",
-        image: "./assets/images/movie/LOTR.jpg"
+        image: "./assets/images/LOTR.jpg"
     },
     {
         name: "the fast and the furious",
-        image: "./assets/images/movie/Fast-and-Furious.jpg"
+        image: "./assets/images/Fast-and-Furious.jpg"
     },
     {
         name: "back to the future",
-        image: "./assets/images/movie/Back to the Future.jpg"
+        image: "./assets/images/Back to the Future.jpg"
     },
     {
         name: "pirates of the caribbean",
-        image: "./assets/images/movie/Pirates-Caribbean.jpg"
+        image: "./assets/images/Pirates-Caribbean.jpg"
     },
     {
         name: "jurassic park",
-        image: "./assets/images/movie/jurassic-park.jpg"
+        image: "./assets/images/jurassic-park.jpg"
     },
     {
         name: "transformers",
-        image: "./assets/images/movie/Transformers.jpg"
+        image: "./assets/images/Transformers.jpg"
     },
     {
         name: "mission impossible",
-        image: "./assets/images/movie/mission_impossible.jpg"
-    }];
+        image: "./assets/images/mission_impossible.jpg"
+    },
+    {
+        name: "rocky",
+        image: "./assets/images/rocky.png"
+    },
+    {
+        name: "the matrix",
+        image: "./assets/images/matrix.jpg"
+    },
+    {
+        name: "the terminator",
+        image: "./assets/images/terminator.jpg"
+    },
+    {
+        name: "die hard",
+        image: "./assets/images/die_hard.png"
+    },
+    {
+        name: "underworld",
+        image: "./assets/images/underworld.jpg"
+    },
+    {
+        name: "predator",
+        image: "./assets/images/predator.jpg"
+    },
+    {
+        name: "alien",
+        image: "./assets/images/alien.jpg"
+    },
+    {
+        name: "home alone",
+        image: "./assets/images/home_alone.jpg"
+    },
+    {
+        name: "jaws",
+        image: "./assets/images/jaws.jpg"
+    },
+    {
+        name: "mad max",
+        image: "./assets/images/mad_max.jpg"
+    },
+    {
+        name: "smokey and the bandit",
+        image: "./assets/images/smokey.jpg"
+    }
+];
 
     const maxGuesses = 14;
     var pauseGame = false;
