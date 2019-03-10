@@ -1,0 +1,26 @@
+/* General Styling */
+
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#hint {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+}
+
+body {
+    background: url("../images/Blank-chalkboard-desktop-background.jpg");
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
